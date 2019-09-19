@@ -196,18 +196,23 @@ div.fadeIn {
         font-size: 1.9em;
     }
     .match h2 {
-        font-size: 25px;
+        font-size: 50px;
         display: flex;
         justify-content: center;
-        align-items: flex-start;
+        align-items: center;
     }
     .hands {
         display: flex;
         justify-content: center;
         align-items: center;
+        margin: 5%;
     }
     .match button {
         width: 20vw;
+    }
+    .match p {
+        margin: 2%;
+        text-align: justify;
     }
     .intro h1 {
         font-size: 20px;
