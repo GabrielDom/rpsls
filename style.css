@@ -190,3 +190,30 @@ div.fadeIn {
         height: 200px;
     }
 }
+
+@media screen and (max-width: 374px) {
+    .score h2, .score p {
+        font-size: 1.9em;
+    }
+    .match h2 {
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .hands {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .match button {
+        width: 20vw;
+    }
+    .intro h1 {
+        font-size: 20px;
+    }
+    img {
+        width: 170px;
+        height: 170px;
+    }
+}
