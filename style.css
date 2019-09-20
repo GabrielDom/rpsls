@@ -207,6 +207,10 @@ div.fadeIn {
         align-items: center;
         margin: 5%;
     }
+    section {
+        width: 100vw;
+        height: 100vh;
+    }
     .match button {
         width: 20vw;
     }
